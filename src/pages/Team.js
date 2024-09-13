@@ -2,32 +2,28 @@ import ProfileCard from "../components/ProfileCard";
 
 export default function () {
   const groupLeader = { name: "Morteza Haghir Chehreghani" };
+
   const phdStudents = [
     { name: "Valter Schütz" },
     { name: "Jack Sandberg" },
     { name: "Linus Aronsson" },
     { name: "Hampus Gummesson Svensson" },
     { name: "Deepthi Pathare" },
-  ];
+  ].sort((a, b) => a.name.split(" ")[1].localeCompare(b.name.split(" ")[1]));
+
   const affiliatedPhdStudents = [
     { name: "Hannes Nilsson" },
     { name: "Kilian Tamino Tamino Freitag" },
-  ];
+  ].sort((a, b) => a.name.split(" ")[1].localeCompare(b.name.split(" ")[1]));
+
   const alumni = [
     { name: "Niklas Åkerblom", desc: "PhD student, defense: 2024" },
     { name: "Arman Rahbar", desc: "PhD student, defense: soon" },
     { name: "Fazeleh Sadat Hoseini", desc: "PhD student, defense: 2023" },
-  ];
+  ].sort((a, b) => a.name.split(" ")[1].localeCompare(b.name.split(" ")[1]));
+
   return (
     <>
-      {/* <section class="hero is-primary">
-        <div class="hero-body has-text-centered">
-          <div class="container has-text-centered">
-            <h1 class="title">The Team</h1>
-          </div>
-        </div>
-      </section> */}
-
       <section class="section container">
         <h2 class="title">Group Leader</h2>
         <div
