@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Teaching from "./pages/Teaching";
 import Publications from "./pages/Publications";
+import Patents from "./pages/Patents";
 import Code from "./pages/Code";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         return <Teaching />;
       case "publications":
         return <Publications />;
+      case "patents":
+        return <Patents />;
       case "code":
         return <Code />;
     }
@@ -65,6 +68,12 @@ function App() {
                 onClick={() => setSelectedPageName("publications")}
               >
                 Publications
+              </a>
+              <a
+                class={`navbar-item ${selectedPageName == "patents" && "is-active"}`}
+                onClick={() => setSelectedPageName("patents")}
+              >
+                Patents
               </a>
               <a
                 class={`navbar-item ${selectedPageName == "code" && "is-active"}`}
