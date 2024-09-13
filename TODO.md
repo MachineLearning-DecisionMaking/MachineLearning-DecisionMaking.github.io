@@ -1,6 +1,3 @@
-- Sort people alphabetically
 - Expandable profile cards. Ask people about their photo and research keyword.
-- Change github repo.
-- Chalmers logo and group logo in hero. PNG images.
-- Change fonts and colors.
-- Remove "Research" header
+- Change colors.
+- Change favicon

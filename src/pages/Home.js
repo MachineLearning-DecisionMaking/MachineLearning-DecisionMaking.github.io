@@ -2,25 +2,33 @@ import swedishResearchCouncilImage from "../images/swedish-research-council.png"
 import chalmersImage from "../images/chalmers.png";
 import vinnovaImage from "../images/vinnova.png";
 import waspImage from "../images/wasp.jpg";
+import placeholderLogo from "../images/placeholder-logo.png";
 
 export default function () {
   return (
     <>
       <section class="hero is-primary">
-        <div class="hero-body has-text-centered">
-          <h2 class="title">Machine Learning and Decision Making</h2>
-          <p class="subtitle mt-2">
-            The Machine Learning and Decision Making Lab (ML-DM) is based in the
-            Data Science and AI division in the Department of Computer Science
-            and Engineering (CSE) at Chalmers University of Technology,
-            Gothenburg, Sweden. The lab, led by Morteza Haghir Haghir
-            Chehreghani, conducts research in different areas of machine
-            learning and AI-enabled decision making.
-          </p>
+        <div class="hero-body is-flex is-flex-direction-row is-justify-content-center is-align-items-center">
+          <figure className="image is-128x128">
+            <img src={chalmersImage} />
+          </figure>
+          <div className="column has-text-centered is-flex is-flex-direction-column is-justify-content-center">
+            <h2 class="title">Machine Learning and Decision Making</h2>
+            <p class="subtitle mt-2">
+              The Machine Learning and Decision Making Lab (ML-DM) is based in the
+              Data Science and AI division in the Department of Computer Science
+              and Engineering (CSE) at Chalmers University of Technology,
+              Gothenburg, Sweden. The lab, led by <a href="#" target="_blank" rel="noopener noreferrer">Morteza Haghir Haghir
+                Chehreghani</a>, conducts research in different areas of machine
+              learning and AI-enabled decision making.
+            </p>
+          </div>
+          <figure className="image is-128x128">
+            <img src={placeholderLogo} />
+          </figure>
         </div>
-      </section>
+      </section >
       <section class="section content is-medium container">
-        <h2>Research</h2>
         <p>
           Our research spans both the foundations of machine learning and
           decision making as well as real-world applications, aiming to push the
@@ -64,9 +72,6 @@ export default function () {
         <div class="columns">
           <figure class="column image is-128x128">
             <img src={swedishResearchCouncilImage} />
-          </figure>
-          <figure class="column image is-4by5">
-            <img src={chalmersImage} />
           </figure>
           <figure class="column image is-128x128">
             <img src={vinnovaImage} />
