@@ -7,7 +7,7 @@ export default function () {
       year: 2024,
       source:
         "The Thirty-Fourth IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-      link: "#",
+      link: "https://openaccess.thecvf.com/content/CVPR2024/html/Chehreghani_Hierarchical_Correlation_Clustering_and_Tree_Preserving_Embedding_CVPR_2024_paper.html",
     },
     {
       title:
