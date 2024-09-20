@@ -42,7 +42,7 @@ export default function () {
           <ul>
             <li>Active learning and active decision making</li>
             <li>Online learning / multi-armed bandits</li>
-            <li> (Deep) Reinforcement learning</li>
+            <li>(Deep) Reinforcement learning</li>
             <li>Human-in-the-loop machine learning</li>
             <li>Multi-agent / federated learning</li>
           </ul>
