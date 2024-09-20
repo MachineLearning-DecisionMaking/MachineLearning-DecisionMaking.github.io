@@ -18,7 +18,7 @@ export default function () {
               The Machine Learning and Decision Making Lab (ML-DM) is based in the
               Data Science and AI division in the Department of Computer Science
               and Engineering (CSE) at Chalmers University of Technology,
-              Gothenburg, Sweden. The lab, led by <a href="#" target="_blank" rel="noopener noreferrer">Morteza Haghir Haghir
+              Gothenburg, Sweden. The lab, led by <a href="#" target="https://www.cse.chalmers.se/~haghir/" rel="noopener noreferrer">Morteza Haghir Haghir
                 Chehreghani</a>, conducts research in different areas of machine
               learning and AI-enabled decision making.
             </p>
